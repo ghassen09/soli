@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="assets/css/bootstrap.min.css?v=<?php echo time();?>">
 			
 			<!-- Fontawesome CSS -->
 			<link rel="stylesheet" href="assets/css/font-awesome.min.css?v=<?php echo time();?>">
