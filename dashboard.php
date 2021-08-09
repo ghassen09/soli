@@ -5,7 +5,7 @@ require("header.php")
   <div class="logo-details">
     <img id="logo_name" src="images\logo1.png">
     <img id="solixy">
-  </div>
+  </div><a>
 <ul class="nav-links">
     <li class = "<?php if($pageName == 'Home') {echo 'act';}?>">
       <a href="home.php">
