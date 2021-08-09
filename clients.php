@@ -90,7 +90,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 										<th>Téléphone</th>
 										<th>Pays</th>
 										<th>Matricule</th>
-										<th>action</th>
+										<th>Action</th>
 									</tr>
 								</thead>
 								<?php 
