@@ -17,7 +17,13 @@
 	$query = "select * from clients";
 	$result = mysqli_query($conn,$query);
 ?>
+<?php
+$pageName = "Clients";
+session_start();
 
+if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
+
+?>
   <?php require "dashboard.php";?>
   
 <!-- Main Wrapper -->
@@ -84,7 +90,7 @@
 										<th>Téléphone</th>
 										<th>Pays</th>
 										<th>Matricule</th>
-										<th>Action</th>
+										<th>action</th>
 									</tr>
 								</thead>
 								<?php 
