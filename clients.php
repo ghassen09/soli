@@ -12,9 +12,14 @@
 			<!-- Main CSS -->
 			<link rel="stylesheet" href="assets/css/style.css?v=<?php echo time();?>">
 
-
+<?php 
+	require_once('db_conn.php');
+	$query = "select * from clients";
+	$result = mysqli_query($conn,$query);
+?>
 <?php
-
+$pageName = "Clients";
+session_start();
 
 if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
