@@ -55,7 +55,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 					<div class="col-sm-6 col-md-3">  
 						<div class="form-group form-focus">
 							<input type="text" class="form-control floating">
-							<label class="focus-label">Client ID</label>
+							<label class="focus-label">client ID</label>
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3">  
