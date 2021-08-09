@@ -18,8 +18,7 @@
 	$result = mysqli_query($conn,$query);
 ?>
 <?php
-$pageName = "Clients";
-session_start();
+
 
 if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 
