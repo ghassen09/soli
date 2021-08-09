@@ -55,13 +55,13 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 					<div class="col-sm-6 col-md-3">  
 						<div class="form-group form-focus">
 							<input type="text" class="form-control floating">
-							<label class="focus-label">Client ID</label>
+							<label class="focus-label">client ID</label>
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3">  
 						<div class="form-group form-focus">
 							<input type="text" class="form-control floating">
-							<label class="focus-label">Client Name</label>
+							<label class="focus-label">Client name</label>
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-3">  
@@ -90,7 +90,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 										<th>Téléphone</th>
 										<th>Pays</th>
 										<th>Matricule</th>
-										<th>action</th>
+										<th>Action</th>
 									</tr>
 								</thead>
 								<?php 
